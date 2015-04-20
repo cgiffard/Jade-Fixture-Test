@@ -1,0 +1,20 @@
+{
+  "name": "jade-fixture-test",
+  "version": "1.0.1",
+  "description": "Test a jade template and JSON fixture against a BAS sheet",
+  "main": "index.js",
+  "bin": {
+    "jadetest": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christopher Giffard <christopher.giffard@cgiffard.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bas": "0.0.32",
+    "colors": "^1.0.3",
+    "commander": "^2.8.0",
+    "jade": "^1.9.2"
+  }
+}
