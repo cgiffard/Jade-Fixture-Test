@@ -30,6 +30,8 @@ npm install -g jade-fixture-test
 ```sh
 jadetest -j ./example/template.jade -f ./example/fixture.json -s ./example/sheet.bas
 ```
+
+![Jade fixture test result screenshot](https://files.app.net/j4wxfP54H.png)
 	  
 ## LICENCE
 
