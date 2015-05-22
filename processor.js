@@ -45,7 +45,7 @@ function compileJade(filename, callback) {
 
 function loadFixture(filename, callback) {
 	try {
-		callback(null, require(filename));
+		callback(null, require(process.cwd() + "/" + filename));
 	} catch(err) {
 		callback(err);
 	}
